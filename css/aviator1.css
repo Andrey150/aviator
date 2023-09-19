@@ -1,0 +1,131 @@
+.app__aviator1 {
+  background-image: url('../images/aviator1/bg.jpg');
+}
+
+.titles {
+  margin-bottom: 20px;
+}
+
+.main__title {
+  transform: rotate(-2.298deg);
+  font-style: italic;
+  text-align: center;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+._grey {
+  background: linear-gradient(90deg, #FFF 31.16%, #ADA0A1 69.32%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+._white {
+  color: #FFF;
+}
+
+._red {
+  background: linear-gradient(91deg, #E50539 0.26%, #F4456E 95.81%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.app__aviator1 .button__bonus {
+  border-radius: 32px;
+  background-color: #E50539;
+  box-shadow: 4.65009px 3.48757px 0px 0px #A60329, 
+    0px -2.32505px 2.32505px 0px rgba(255, 255, 255, 0.82) inset, 
+    0px 2.32505px 1.16252px 0px rgba(255, 255, 255, 0.33) inset;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 42px 56px;
+  text-transform: uppercase;
+  transition: .3s all ease;
+}
+
+.button__bonus:hover {
+  background-color: #9f0c2e;
+  transition: .3s all ease;
+}
+
+.button__rules {
+  padding: 8px 18px;
+  border-radius: 6px;
+  opacity: 0.64;
+  background-color: rgba(19, 10, 11, 0.48);
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 16px auto;
+  transition: .3s all ease;
+}
+
+.button__rules:hover {
+  background-color: rgba(19, 10, 11, 0.78);
+  transition: .3s all ease;
+}
+
+.clouds-forward {
+  background-image: url('../images/aviator1/clouds_forward.png');
+  bottom: 0;
+  right: 0;
+  width: 130em;
+  height: 55em;
+  z-index: 1;
+}
+
+.clouds-forward2 {
+  background-image: url('../images/aviator1/clouds_forward2.png');
+  bottom: 0;
+  right: 0;
+  width: 80em;
+  height: 57em;
+  z-index: 1;
+}
+
+.phone {
+  background-image: url('../images/aviator1/phone.png');
+  width: 40em;
+  height: 63em;
+  bottom: 13em;
+  right: 12em;
+}
+
+.plane {
+  background-image: url('../images/aviator1/plane.png');
+  width: 100em;
+  height: 70em;
+  bottom: 0;
+  z-index: 2;
+}
+
+.cloud-right {
+  background-image: url('../images/aviator1/cloud_right.png');
+  width: 40em;
+  height: 50em;
+  top: 0;
+  right: 0;
+}
+
+.cloud-left {
+  background-image: url('../images/aviator1/cloud_left.png');
+  width: 86em;
+  height: 44em;
+  top: 0;
+  left: 0;
+}
+
+.cloud-bg {
+  background-image: url('../images/aviator1/bg_image2.png');
+  min-width: 100vw;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  mix-blend-mode: color-dodge;
+}
