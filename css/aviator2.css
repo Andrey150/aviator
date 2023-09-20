@@ -7,7 +7,7 @@
   z-index: 5;
 }
 
-.app__aviator2._bn header {
+.app__aviator2._bn .header {
   margin-bottom: 20px;
 }
 
@@ -21,6 +21,9 @@
 
 .app__aviator2 .main__top {
   margin-bottom: 150px;
+}
+.app__aviator2 .main {
+  z-index: 5;
 }
 
 ._main {
