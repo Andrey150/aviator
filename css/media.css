@@ -4,6 +4,37 @@
   }
 }
 
+@media(min-width: 1920px){
+  .plane {
+    z-index: 2;
+  }
+  .airplane1 {
+    z-index: 3;
+  }
+  .airplane2 {
+    z-index: 4;
+  }
+  .cloud1 {
+    z-index: 4;
+  }
+}
+
+@media(max-width: 1920px) {
+  .plane {
+    z-index: 2;
+  }
+  .airplane1 {
+    z-index: 3;
+  }
+  .airplane2 {
+    z-index: 4;
+  }
+  .cloud1 {
+    z-index: 4;
+  }
+
+}
+
 @media(max-width: 1700px) {
   .phone {
     right: 0;
@@ -61,9 +92,6 @@
 }
 
 @media(max-width: 980px) {
-  h1 {
-    font-size: 84px;
-  }
   h2 {
     font-size: 64px;
   }
@@ -71,6 +99,9 @@
     font-size: 48px;
   }
   .app__aviator2 .header {
+    margin-bottom: 260px;
+  }
+  .app__aviator2._bn .header {
     margin-bottom: 260px;
   }
   .main__subtitle {
@@ -181,7 +212,7 @@
 
 @media(max-width: 600px) {
   h1 {
-    font-size: calc(54px + 4vw);
+    font-size: calc(64px + 4vw);
   }
   .app__aviator2 .button__bonus {
     font-size: 18px;
@@ -287,7 +318,7 @@
   .airplane1 {
     width: 45em;
     height: 21em;
-    top: 16em;
+    top: 9em;
   }
   .airplane2 {
     width: 26em;
@@ -359,6 +390,24 @@
     height: 25em;
     left: -11em;
   }
+  .airplane1 {
+    top: 9em;
+  }
+  .cloud1 {
+    width: 54em;
+    height: 30em;
+    top: 20em;
+  }
+  .cloud2 {
+    width: 59em;
+    height: 29em;
+  }
+}
+
+@media(max-width: 470px){
+  h1 {
+    font-size: calc(58px + 4vw);
+  }
 }
 
 @media(max-width: 420px) {
@@ -396,7 +445,7 @@
   .airplane1 {
     width: 33em;
     height: 21em;
-    top: 21em;
+    top: 12em;
     left: 2em;
   }
   .airplane2 {
