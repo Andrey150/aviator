@@ -7,6 +7,10 @@
   z-index: 5;
 }
 
+.app__aviator2._bn header {
+  margin-bottom: 20px;
+}
+
 .app__aviator2 .wrapper {
   max-width: 1200px;
 }
@@ -134,6 +138,8 @@
 }
 
 .app__aviator2 .registration__title-text {
+  position: relative;
+  z-index: 1;
   font-size: 28px;
 }
 
@@ -230,4 +236,26 @@
   bottom: 0;
   width: 130em;
   height: 100em;
+}
+
+.airplane1 {
+  background-image: url('../images/aviator2/airplane1.png');
+  left: 10em;
+  top: 4em;
+  width: 87em;
+  height: 44em;
+}
+.airplane2 {
+  background-image: url('../images/aviator2/airplane2.png');
+  left: 0;
+  top: 10em;
+  width: 33em;
+  height: 24em;
+}
+.airplane3 {
+  background-image: url('../images/aviator2/airplane3.png');
+  left: 41em;
+  top: 8em;
+  width: 30em;
+  height: 20em;
 }
