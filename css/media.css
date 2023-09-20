@@ -36,6 +36,10 @@
   .app__aviator1 .button__bonus {
     font-size: 32px;
   }
+  .airplane1 {
+    width: 66em;
+    height: 31em;
+  }
 }
 
 @media(max-width: 1024px) {
@@ -65,6 +69,9 @@
   }
   h3 {
     font-size: 48px;
+  }
+  .app__aviator2 .header {
+    margin-bottom: 260px;
   }
   .main__subtitle {
     font-size: 18px;
@@ -112,17 +119,26 @@
   .modal__title {
     font-size: 18px;
   }
+  .cloud1 {
+    width: 85em;
+    height: 45em;
+  }
+  .cloud2 {
+    width: 94em;
+    height: 39em;
+  }
+  
 }
 
 @media(max-width: 767px) {
   h1 {
-    font-size: 72px;
+    font-size: calc(72px + 4vw);
   }
   h2 {
-    font-size: 54px;
+    font-size: calc(38px + 4vw);
   }
   h3 {
-    font-size: 42px;
+    font-size: calc(32px + 4vw);
   }
 
   .app__aviator1 .button__bonus {
@@ -155,6 +171,9 @@
   .app__aviator2 .registration__button {
     font-size: 20px;
   }
+  .app__aviator2 .button__bonus {
+    width: 90vw;
+  }
   .devices {
     display: none;
   }
@@ -162,13 +181,7 @@
 
 @media(max-width: 600px) {
   h1 {
-    font-size: 66px;
-  }
-  h2 {
-    font-size: 48px;
-  }
-  h3 {
-    font-size: 36px;
+    font-size: calc(54px + 4vw);
   }
   .app__aviator2 .button__bonus {
     font-size: 18px;
@@ -271,6 +284,20 @@
     left: -17em;
     bottom: 26em;
   }
+  .airplane1 {
+    width: 45em;
+    height: 21em;
+    top: 16em;
+  }
+  .airplane2 {
+    width: 26em;
+    height: 17em;
+  }
+  .airplane3 {
+    left: 6em;
+    width: 25em;
+  }
+
   .modal {
     width: 90vw;
     padding: 16px 24px 16px;
@@ -287,7 +314,12 @@
   .main__subtitle {
     font-size: 14px;
   }
-
+  .main__subtitle-block {
+    margin-bottom: 0;
+  }
+  .app__aviator2 .main__top {
+    margin-bottom: 100px;
+  }
   .app__aviator2 .registration {
     width: 90vw;
   }
@@ -331,7 +363,10 @@
 
 @media(max-width: 420px) {
   h1 {
-    font-size: 56px;
+    font-size: calc(48px + 4vw);
+  }
+  h3 {
+    font-size: calc(26px + 4vw);
   }
   .app__aviator1._bn h2 {
     font-size: 38px;
@@ -343,7 +378,7 @@
     padding: 54px 10px 32px;
   }
   .app__aviator2 .registration__sum {
-    font-size: 62px;
+    font-size: calc(60px + 2vw);
   }
   .app__aviator2._bn .registration__sum {
     font-size: 62px;
@@ -358,10 +393,29 @@
   .app__aviator2 .registration__title-text {
     font-size: 18px;
   }
+  .airplane1 {
+    width: 33em;
+    height: 21em;
+    top: 21em;
+    left: 2em;
+  }
+  .airplane2 {
+    width: 21em;
+    height: 17em;
+    top: 15em;
+  }
+  .airplane3 {
+    left: 6em;
+    width: 25em;
+    top: 10em;
+  }
   
 }
 
 @media(max-width: 360px) {
+  h1 {
+    font-size: calc(44px + 4vw);
+  }
   .app__aviator1._bn h2 {
     font-size: 34px;
   }
