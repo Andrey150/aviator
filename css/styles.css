@@ -218,6 +218,23 @@ h3 {
   justify-content: center;
 }
 
+.button__rules {
+  padding: 8px 18px;
+  border-radius: 6px;
+  opacity: 0.64;
+  background-color: rgba(19, 10, 11, 0.48);
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 16px auto;
+  transition: .3s all ease;
+}
+
+.button__rules:hover {
+  background-color: rgba(19, 10, 11, 0.78);
+  transition: .3s all ease;
+}
+
 .footer {
   background: rgba(0, 0, 0, 0.90);
 }
@@ -281,18 +298,15 @@ h3 {
   background: rgba(0, 0, 0, 0.25);
   position: fixed;
   top: 0;
-  right: -200vw;
-  bottom: 0;
-  left: auto;
-  z-index: 0;
-  transition: .5s all ease;
-}
-
-.modal__wrap._active{
   right: 0;
+  bottom: 0;
   left: 0;
   z-index: 100;
-  transition: .5s all ease;
+  visibility: hidden;
+}
+
+.modal__wrap._active {
+  visibility: visible;
 }
 
 .modal {
@@ -307,6 +321,13 @@ h3 {
   transform: translate(-50%, -50%);
   border-radius: 18px;
   padding: 28px 36px 28px;
+  opacity: 0;
+  transition: .3s all ease;
+}
+
+.modal__wrap._active .modal {
+  opacity: 1;
+  transition: .3s all ease;
 }
 
 .modal__header {

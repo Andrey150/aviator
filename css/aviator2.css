@@ -36,7 +36,7 @@
 
 .app__aviator2 .button__bonus {
   border-radius: 28px;
-  background: linear-gradient(94deg, #FD446F -4.64%, #E50539 29.91%, #E50539 73.84%, #FF3F6B 107.8%);
+  background: #E50539;
   box-shadow: 0px 0px 70px 0px #E5093C;
   color: #FFF;
   text-align: center;
@@ -50,7 +50,6 @@
 }
 
 .app__aviator2 .button__bonus:hover {
-  background: #E50539;
   box-shadow: 0px 0px 120px 0px #E5093C;
   transition: .3s all ease;
 }
