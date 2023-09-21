@@ -216,6 +216,7 @@
   }
   .app__aviator2 .button__bonus {
     width: 90vw;
+    box-shadow: 0px 0px 48px 0px #E5093C;
   }
   .devices {
     display: none;

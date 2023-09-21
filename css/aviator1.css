@@ -33,7 +33,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.button__bonus {
+.app__aviator1 .button__bonus {
   border-radius: 32px;
   background-color: #E50539;
   box-shadow: 4.65009px 3.48757px 0px 0px #A60329, 
@@ -48,7 +48,7 @@
   transition: .3s all ease;
 }
 
-.button__bonus:hover {
+.app__aviator1 .button__bonus:hover {
   box-shadow: 0px 0px 120px 0px #E5093C;
   transition: .3s all ease;
 }
