@@ -165,16 +165,28 @@
   h1 {
     font-size: calc(72px + 4vw);
   }
+
   h2 {
     font-size: calc(38px + 4vw);
   }
+  .app__aviator1 h2 {
+    font-size: calc(18px + 4vw);
+  }
+  .app__aviator1 h2.main__title._red {
+    font-size: calc(32px + 4vw);
+  }
   h3 {
     font-size: calc(32px + 4vw);
+  }
+  .app__aviator1 h3 {
+    font-size: calc(16px + 4vw);
   }
 
   .app__aviator1 .button__bonus {
     font-size: 24px;
     padding: 32px 42px;
+    transform: rotate(-2.093deg);
+    border-radius: 18px;
   }
   .app__aviator2 .main__bot {
     justify-content: center;
@@ -204,6 +216,7 @@
   }
   .app__aviator2 .button__bonus {
     width: 90vw;
+    box-shadow: 0px 0px 48px 0px #E5093C;
   }
   .devices {
     display: none;
@@ -213,6 +226,12 @@
 @media(max-width: 600px) {
   h1 {
     font-size: calc(64px + 4vw);
+  }
+  .app__aviator1 h2 {
+    font-size: calc(16px + 4vw);
+  }
+  .app__aviator1 h3 {
+    font-size: calc(14px + 4vw);
   }
   .app__aviator2 .button__bonus {
     font-size: 18px;
@@ -262,6 +281,8 @@
   .app__aviator1 .button__bonus {
     font-size: 22px;
     padding: 25px 32px;
+    min-width: unset;
+    width: 80vw;
   }
   .footer__inner {
     grid-template-columns: 1fr;
@@ -316,13 +337,16 @@
     bottom: 26em;
   }
   .airplane1 {
-    width: 45em;
-    height: 21em;
-    top: 9em;
+    width: 30em;
+    height: 16em;
+    top: 13em;
+    left: auto;
+    right: 0;
   }
   .airplane2 {
-    width: 26em;
-    height: 17em;
+    width: 20em;
+    height: 16em;
+    top: 13em;
   }
   .airplane3 {
     left: 6em;
@@ -338,6 +362,12 @@
 @media(max-width: 540px) {
   .app__aviator1._bn h2 {
     font-size: 44px;
+  }
+  .app__aviator1 h2 {
+    font-size: calc(14px + 4vw);
+  }
+  .app__aviator1 h3 {
+    font-size: calc(12px + 4vw);
   }
   ._main {
     padding-right: 0;
@@ -365,34 +395,34 @@
 
   .app__aviator2 .button__bonus {
     padding: 24px 32px;
+    min-width: unset;
+    border-radius: 18px;
   }
   
   .clouds-forward2 {
-    bottom: 2em;
-    width: 57em;
-    height: 49em;
+    bottom: 3em;
+    width: 72em;
+    height: 43em;
     z-index: 2;
   }
   .clouds-forward {
-    bottom: 15em;
-    width: 100em;
-    height: 27em;
-    z-index: 2;
+    bottom: 19em;
+    width: 52em;
+    height: 22em;
+    z-index: 1;
   }
   .phone {
     width: 19em;
     z-index: 1;
-    right: -3em;
-    height: 42em;
+    right: -1em;
+    height: 46em;
+    bottom: 7em;
   }
   .plane {
     width: 45em;
     height: 25em;
     left: -11em;
-  }
-  .airplane1 {
-    top: 9em;
-  }
+  } 
   .cloud1 {
     width: 54em;
     height: 30em;
@@ -407,6 +437,12 @@
 @media(max-width: 470px){
   h1 {
     font-size: calc(58px + 4vw);
+  }
+  .app__aviator1 h2 {
+    font-size: calc(11px + 4vw);
+  }
+  .app__aviator1 h3 {
+    font-size: calc(10px + 4vw);
   }
 }
 
@@ -443,20 +479,20 @@
     font-size: 18px;
   }
   .airplane1 {
-    width: 33em;
+    width: 26em;
     height: 21em;
-    top: 12em;
-    left: 2em;
+    top: 14em;
   }
   .airplane2 {
-    width: 21em;
-    height: 17em;
+    width: 15em;
+    height: 13em;
     top: 15em;
-  }
+  } 
   .airplane3 {
     left: 6em;
-    width: 25em;
-    top: 10em;
+    width: 20em;
+    top: 12em;
+    height: 10em;
   }
   
 }

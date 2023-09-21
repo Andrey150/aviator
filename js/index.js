@@ -40,12 +40,12 @@ const modal = document.querySelector('.modal');
 
 btnRules.addEventListener('click', function(){
   modalWrap.classList.add('_active')
-  document.body.style.height = "100vh"
+  document.body.style.overflowY = "hidden"
 })
 
 function closeModal() {
   modalWrap.classList.remove('_active');
-  document.body.style.height = "unset"
+  document.body.style.overflowY = "auto"
 }
 
 modalCloseBtn.addEventListener('click', closeModal);

@@ -44,6 +44,7 @@
   font-weight: 900;
   padding: 42px 56px;
   text-transform: uppercase;
+  min-width: 490px;
   transition: .3s all ease;
 }
 
