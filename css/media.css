@@ -331,10 +331,10 @@
     height: 40em;
   }
   .plane {
-    width: 49em;
-    height: 32em;
+    width: 54em;
+    height: 40em;
     left: -17em;
-    bottom: 26em;
+    bottom: 28em;
   }
   .airplane1 {
     width: 30em;
@@ -419,9 +419,9 @@
     bottom: 7em;
   }
   .plane {
-    width: 45em;
-    height: 25em;
-    left: -11em;
+    width: 50em;
+    height: 34em;
+    left: -16em;
   } 
   .cloud1 {
     width: 54em;
@@ -443,6 +443,11 @@
   }
   .app__aviator1 h3 {
     font-size: calc(10px + 4vw);
+  }
+  .plane {
+    width: 50em;
+    height: 29em;
+    left: -12em;
   }
 }
 
@@ -494,7 +499,10 @@
     top: 12em;
     height: 10em;
   }
-  
+  .plane {
+    height: 27em;
+    left: -8em;
+  }
 }
 
 @media(max-width: 360px) {
@@ -508,7 +516,7 @@
     font-size: 28px;
   }
   .plane {
-    height: 21em;
+    height: 23em;
   }
   .app__aviator2 .registration__sum {
     font-size: 58px;
