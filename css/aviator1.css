@@ -33,7 +33,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.app__aviator1 .button__bonus {
+.button__bonus {
   border-radius: 32px;
   background-color: #E50539;
   box-shadow: 4.65009px 3.48757px 0px 0px #A60329, 
@@ -50,23 +50,6 @@
 
 .button__bonus:hover {
   background-color: #9f0c2e;
-  transition: .3s all ease;
-}
-
-.button__rules {
-  padding: 8px 18px;
-  border-radius: 6px;
-  opacity: 0.64;
-  background-color: rgba(19, 10, 11, 0.48);
-  color: #FFF;
-  font-size: 16px;
-  font-weight: 500;
-  margin: 16px auto;
-  transition: .3s all ease;
-}
-
-.button__rules:hover {
-  background-color: rgba(19, 10, 11, 0.78);
   transition: .3s all ease;
 }
 
